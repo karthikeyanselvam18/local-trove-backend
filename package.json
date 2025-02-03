@@ -1,4 +1,11 @@
 {
+  "name": "local-trove-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step required for Express'"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
